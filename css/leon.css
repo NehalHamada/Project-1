@@ -51,7 +51,7 @@ body {
 /* Start Components */
 .special-heading {
   color: #ebeced;
-  font-size: 80px;
+  font-size: 100px;
   text-align: center;
   font-weight: 800;
   letter-spacing: -3px;
@@ -65,7 +65,7 @@ body {
 }
 @media (max-width: 767) {
   .special-heading {
-    font-size: 60px;
+    font-size: 30px;
   }
   .special-heading + p {
     margin-top: -20px;
