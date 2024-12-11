@@ -51,9 +51,9 @@ body {
 /* Start Components */
 .special-heading {
   color: #ebeced;
-  font-size: 100px;
+  font-size: 80px;
   text-align: center;
-  font-weight: 500;
+  font-weight: 800;
   letter-spacing: -3px;
   margin: 0;
 }
