@@ -197,11 +197,13 @@ body {
 .features .feat h3 {
   font-weight: 800;
   margin: 30px 0;
+  text-align: center;
 }
 .features .feat p {
   line-height: var(--line-height);
   color: var(--font-color);
   font-size: 17px;
+  text-align: center;
 }
 /* End Features */
 /* Start Services  */
@@ -228,17 +230,20 @@ body {
 .services .services-content .srv i {
   color: var(--main-color);
   flex-basis: 60px;
+  margin-left: 10px;
 }
 .services .services-content .srv .text {
   flex: 1;
 }
 .services .services-content .srv .text h3 {
   margin: 0 0 20px;
+  text-align: center;
 }
 .services .services-content .srv .text p {
   color: #444;
   font-weight: 300;
   line-height: var(--line-height);
+  text-align: center;
 }
 .services .services-content .image {
   text-align: center;
@@ -286,11 +291,13 @@ body {
 }
 .portofolio .Portofolio-content .card .info h3 {
   margin: 0;
+  text-align: center;
 }
 .portofolio .Portofolio-content .card .info p {
   color: var(--font-color);
   line-height: var(--line-height);
   margin-bottom: 0;
+  text-align: center;
 }
 /* End Portofolio */
 /* Start About  */
@@ -404,10 +411,9 @@ body {
   color: var(--secondary-color);
 }
 @media (max-width: 767px) {
-  .contact .info .label, 
+  .contact .info .label,
   .contact .info .link {
     font-size: 25px;
-
   }
 }
 /* End Contact */
